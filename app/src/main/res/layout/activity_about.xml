@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".About">
+
+    <ImageButton
+        android:id="@+id/backabout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/backwhite"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.064"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/backwhite" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="75dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/whitebg2"
+        android:scrollbars="none"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/textView37"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_bold"
+                android:text="About Quicard"
+                android:textColor="@color/violet"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView38"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_regular"
+                android:paddingTop="5dp"
+                android:text="Quicard is a reviewer application which helps users to study effectively. This application allows users to create quick study cards that serves as a reviewer, hence the name. Quicard has different features which includes: home, discover, create, achievements and profile. The home feature will show different buttons that will redirect the user to whichever button the press, the discover feature; from the word itself “discover” will give users all quicards available for use that all users have access to. The create is a feature where users are able to create quicards and we all know that quicards is the term that we use for short reviewers, the users can make a title for it and they can make quicards anytime however much they want to. The achievements feature is essentially a “tracker” and by using this feature, the users will be able to keep track of how many quicards they have made through their use of our application and lastly, the profile is a feature where the information of the user is displayed and by clicking the “settings” button, users are able to edit their information, they can change their profile picture, email, password and this is also where they could logout. There is also a helpful feature that is available for use to all users and this is the auto login feature, this will allow users to login automatically even after closing the app; after the user registers and log in to their account and closing it, the next time they open the application, they will be automatically logged in unless they “logout” of their account from their device."
+                android:textColor="#222222"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

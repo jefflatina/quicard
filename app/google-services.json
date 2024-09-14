@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "94787637743",
+    "project_id": "quicard-app",
+    "storage_bucket": "quicard-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:94787637743:android:baf494d7a37b1f8861a61a",
+        "android_client_info": {
+          "package_name": "com.example.quicard"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "94787637743-j3c69plt4t6nk541n0unahl67vdj42ri.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgks9MMT01WIr7tf0Yko-HYmQ6ixP0Gzg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "94787637743-j3c69plt4t6nk541n0unahl67vdj42ri.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
